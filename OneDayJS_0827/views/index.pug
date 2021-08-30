@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	h2 김밥나라 좌석
+	table.gtable
+		tr.gtable
+			td.gtable 01
+			td.gtable 02
+			td.gtable 03
+			td.gtable 04
+		tr.gtable
+			td.gtable 05
+			td.gtable 06
+			td.gtable 07
+			td.gtable 08
+		tr.gtable
+			td.gtable 09
+			td.gtable 10
+			td.gtable 11
+			td.gtable 12
+	script.
+		document.querySelector("table.gtable").addEventListener("click", (e)=>{
+			const td = e.target
+		};
