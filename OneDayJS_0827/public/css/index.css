@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgba(0, 132, 255, 0.342);
+  width: 80%;
+}
+
+table.gtable {
+  padding: 5px;
+  margin: 0 auto;
+  border-spacing: 100px;
+}
+
+tr.gtable,
+td.gtable {
+  border: 1px solid rgb(0, 84, 194);
+}
+
+td.gtable {
+  padding: 50px;
+  margin: 10px;
+}
