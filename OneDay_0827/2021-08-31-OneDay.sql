@@ -35,3 +35,7 @@ values
 desc tbl_table_orderstbl_table_orders;
 drop table tbl_table_orders;
 select * from tbl_table_orders;
+select * from tbl_products;
+
+drop table tbl_table_orders;
+drop table tbl_products;
